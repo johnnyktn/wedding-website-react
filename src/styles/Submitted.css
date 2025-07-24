@@ -1,0 +1,41 @@
+.submitted-background {
+    background-image: url('../../public/couple1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submitted-container {
+    display: flex;
+    /* Enable flexbox */
+    flex-direction: column;
+    background-color: #e0dede;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    margin-top: 200px;
+}
+
+.submitted-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+    font-family: "Amsterdam", Arial, serif;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .submitted-container {
+        margin-top: 100px; /* Reduce top margin for smaller screens */
+    }
+
+    .submitted-container h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}

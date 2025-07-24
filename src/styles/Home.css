@@ -1,0 +1,300 @@
+@import './Common.css';
+
+.home-background {
+    background-image: url('/public/couple.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#main-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+    /* Adjust margin to avoid overlap with the header */
+}
+
+@media screen and (max-width: 768px) {
+    #main-header {
+        height: 80vh;
+        margin-top: 0px;
+        /* Reduce height for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main-header {
+        height: 70vh;
+        /* Reduce height for mobile devices */
+    }
+}
+
+#main-header .hero-container {
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100%;
+    /* Full height of the parent */
+}
+
+@media screen and (max-width: 768px) {
+    #main-header .hero-container {
+        height: 80%;
+        /* Adjust height for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main-header .hero-container {
+        height: 70%;
+        /* Adjust height for mobile devices */
+    }
+}
+
+#main-header .hero-content {
+    text-align: center;
+    /* Center text inside the child container */
+}
+
+#main-header .hero-content h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 65px;
+    line-height: 1.5;
+    font-family: "Amsterdam", Arial, serif;
+}
+
+@media screen and (max-width: 768px) {
+    #main-header .hero-content h1 {
+        font-size: 40px;
+        /* Adjust font size for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main-header .hero-content h1 {
+        font-size: 30px;
+        /* Adjust font size for mobile devices */
+    }
+}
+
+#main-header .hero-content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Amsterdam", Arial, serif;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #main-header .hero-content h2 {
+        font-size: 20px;
+        /* Adjust font size for tablets */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main-header .hero-content h2 {
+        font-size: 16px;
+        /* Adjust font size for mobile devices */
+    }
+}
+
+#main-header .hero-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #646464;
+    font-family: Arial, serif;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    #main-header .hero-content h2 {
+        font-size: 16px;
+    }
+}
+/* Default styling for the image */
+#main-header img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Adjust image size for tablets */
+@media screen and (max-width: 768px) {
+    #main-header img {
+        max-width: 70%;
+        /* Reduce the image size for tablets */
+    }
+}
+
+/* Adjust image size for mobile devices */
+@media screen and (max-width: 480px) {
+    #main-header img {
+        max-width: 35%;
+        /* Further reduce the image size for phones */
+    }
+}
+
+.main-cover {
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.main-cover .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(1255, 147, 147, 0.5);
+}
+
+@media screen and (min-width: 1920px) {
+    .main-cover {
+        height: 100vh;
+    }
+}
+
+.main-cover .hero-container,
+.main-cover .hero-content {
+    height: 900px;
+    display: table;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-cover .hero-container,
+    .main-cover .hero-content {
+        height: 600px;
+    }
+}
+
+.main-cover.main-cover-sm {
+    height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-cover.main-cover-sm {
+        height: 400px;
+    }
+}
+
+.main-cover.main-cover-sm .hero-container,
+.main-cover.main-cover-sm .hero-content {
+    height: 600px;
+    display: table;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-cover.main-cover-sm .hero-container,
+    .main-cover.main-cover-sm .hero-content {
+        height: 400px;
+    }
+}
+
+/* Default (non-mobile) view */
+.countdown-boxes {
+    display: flex;
+    justify-content: center;
+    /* Center the boxes horizontally */
+    gap: 10px;
+    /* Space between boxes */
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    /* Prevent wrapping to the next line */
+    max-width: 600px;
+    /* Limit the width of the container */
+    margin-left: auto;
+    /* Center the container */
+    margin-right: auto;
+    /* Center the container */
+}
+
+.countdown-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Semi-transparent background */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    min-width: 80px;
+    /* Minimum width for each box */
+    flex: 1;
+    /* Allow boxes to shrink and fit in one row */
+}
+
+.countdown-value {
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.countdown-label {
+    font-size: 1rem;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* Mobile view (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .countdown-boxes {
+        display: flex;
+        justify-content: flex-start;
+        /* Align boxes to the left */
+        gap: 5px; /* Reduce spacing between boxes */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        margin-top: 20px;
+        flex-wrap: nowrap;
+        /* Prevent wrapping */
+    }
+
+    .countdown-box {
+        min-width: 60px;
+        /* Reduce minimum width for smaller screens */
+        padding: 8px;
+        /* Reduce padding */
+        font-size: 0.8rem;
+        /* Adjust font size */
+    }
+
+    .countdown-value {
+        font-size: 1.2rem;
+        /* Scale down countdown value font size */
+    }
+
+    .countdown-label {
+        font-size: 0.7rem;
+        /* Scale down countdown label font size */
+    }
+}

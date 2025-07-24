@@ -1,0 +1,183 @@
+.register-background {
+    background-image: url('/public/couple.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    position: relative;
+    z-index: 10;
+    text-align: left;
+}
+
+.register-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Amsterdam", Arial, serif;
+}
+
+@media screen and (max-width: 768px) {
+    .register-container {
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .register-container label {
+        font-size: 0.9rem;
+    }
+
+    .register-container input[type="text"],
+    .register-container input[type="checkbox"] {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .register-container button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    /* Stack fields vertically */
+    gap: 15px;
+    /* Add spacing between fields */
+}
+
+.register-container label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* Add spacing below labels */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.register-container h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.register-container p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.register-container input[type="text"],
+.register-container input[type="checkbox"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* Add spacing below inputs */
+    margin-left: 10px;
+    /* Add spacing to the left of checkbox */
+}
+
+.register-container input:disabled {
+    background-color: rgba(22, 22, 22, 0.2);
+    ;
+    /* Light grey background */
+    color: #a9a9a9;
+    /* Grey text */
+    border-color: #dcdcdc;
+    /* Light grey border */
+    cursor: not-allowed;
+    /* Show "not allowed" cursor */
+}
+
+.register-container input[type="checkbox"]:not(:disabled):hover {
+    background-color: rgba(76, 175, 80, 0.2);
+    /* Light green background on hover */
+    border-color: #4CAF50;
+    /* Green border */
+    cursor: pointer;
+    /* Show pointer cursor */
+}
+
+.register-container button {
+    margin-top: 20px;
+    /* Add spacing above the button */
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ee708b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    background-color: #eb93a6;
+}
+
+/* Container for Register and Information components */
+.register-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    justify-content: flex-start; /* Align content to the top */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Add some padding to the Register and Information components */
+.register-info-container > * {
+    margin-bottom: 20px;
+}
+
+/* Optional: Style the scrollbar for better appearance */
+.register-info-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.register-info-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.register-info-container::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+.kids-form {
+    margin-top: 20px;
+}
+
+.kid-details {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.kid-details label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.kids-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kids-form button:hover {
+    background-color: #45a049;
+}
