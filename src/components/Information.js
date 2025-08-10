@@ -48,7 +48,7 @@ function Information() {
                 <p>
                     <b>Festligt & Glammigt</b> - som en bal på slottet!
                     Tänk glitter, siden och uppklätt.
-                    Klänning i valfri färg och längd, byxor eller kjol går lika bra.
+                    Klänning i valfri färg och längd, byxor eller kjol går lika bra. Kostym eller smoking för herrar. 
                 </p>
                 <p>
                     <i>
