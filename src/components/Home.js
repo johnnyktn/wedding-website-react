@@ -68,7 +68,7 @@ function Home() {
                 </div>
                 <p>
                   <button
-                    onClick={handleRegisterClick} // Call the handleRegisterClick function
+                    onClick={handleRegisterClick}
                     className="btn"
                   >
                     Info & Anmälan
