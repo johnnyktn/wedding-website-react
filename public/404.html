@@ -6,15 +6,8 @@
     <title>Redirecting...</title>
     <script>
       (function () {
-        var basePath = '/wedding-website-react';
-        var currentPath = window.location.pathname;
-
-        // Check if the current path is already within the base path
-        if (!currentPath.startsWith(basePath)) {
-          // Redirect to the correct base path
-          var newPath = basePath + currentPath + window.location.search;
-          window.location.replace(newPath); // Use replace to avoid adding to history
-        }
+        // Redirect all 404 requests to the root (index.html)
+        window.location.replace('/');
       })();
     </script>
   </head>

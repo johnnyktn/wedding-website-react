@@ -24,7 +24,7 @@
     "predeploy": "npm run build", 
     "deploy": "gh-pages -d build" 
   },
-  "homepage": "https://johnnyktn.github.io/wedding-website-react", 
+  "homepage": "https://weddingwj26.com", 
   "eslintConfig": {
     "extends": [
       "react-app",
