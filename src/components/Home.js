@@ -58,7 +58,7 @@ function Home() {
               <div className="hero-content animate-box" data-animate-effect="fadeIn">
                 <h1>Wilma &amp; Johnny</h1>
                 <br />
-                <img src="/fprint.png" alt="Wilma + Johnny" />
+                <div className="hero-image"></div>
                 <h2>14.02.2026</h2>
                 <div className="countdown">
                   <Countdown date={targetDate} renderer={renderer} />

@@ -110,6 +110,34 @@
     color: #fff;
 }
 
+#main-header .hero-content .hero-image {
+    background-image: url('/public/fprint.png'); /* Correct path for public folder */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; /* Ensures the image is centered inside the div */
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centers horizontally within its parent */
+}
+
+@media screen and (max-width: 768px) {
+    #main-header .hero-content .hero-image {
+        width: 150px; /* Scale down for tablets */
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #main-header .hero-content .hero-image {
+        width: 100px; /* Scale down further for mobile */
+        height: 100px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #main-header .hero-content h3 {
         font-size: 16px;
