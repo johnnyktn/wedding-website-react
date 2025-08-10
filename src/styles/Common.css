@@ -1,0 +1,35 @@
+:root {
+    --primary-button-color: #ee708b;
+    --primary-button-hover-color: #eb93a6;
+}
+
+.shared-container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+.btn {
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: #ee708b;
+    color: white;
+    border: none !important;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #eb93a6;
+    -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
