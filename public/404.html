@@ -1,0 +1,24 @@
+<!-- filepath: /C:/Users/johnn/dev/wedding-website-react/public/404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        var basePath = '/wedding-website-react';
+        var currentPath = window.location.pathname;
+
+        // Check if the current path is already within the base path
+        if (!currentPath.startsWith(basePath)) {
+          // Redirect to the correct base path
+          var newPath = basePath + currentPath + window.location.search;
+          window.location.replace(newPath); // Use replace to avoid adding to history
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
