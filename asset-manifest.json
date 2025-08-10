@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/wedding-website-react/static/css/main.45592e23.css",
-    "main.js": "/wedding-website-react/static/js/main.51a2562e.js",
-    "static/media/couple.jpg": "/wedding-website-react/static/media/couple.aa27806bddc386c06add.jpg",
-    "static/media/couple1.jpg": "/wedding-website-react/static/media/couple1.a8df374a9e3c784222db.jpg",
-    "static/media/slott.jpg": "/wedding-website-react/static/media/slott.7051ea697c0e388f59fa.jpg",
-    "static/media/AmsterdamOne.ttf": "/wedding-website-react/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
-    "index.html": "/wedding-website-react/index.html",
-    "main.45592e23.css.map": "/wedding-website-react/static/css/main.45592e23.css.map",
-    "main.51a2562e.js.map": "/wedding-website-react/static/js/main.51a2562e.js.map"
+    "main.css": "/static/css/main.c2783dd8.css",
+    "main.js": "/static/js/main.f3a62efa.js",
+    "static/media/couple.jpg": "/static/media/couple.aa27806bddc386c06add.jpg",
+    "static/media/couple1.jpg": "/static/media/couple1.a8df374a9e3c784222db.jpg",
+    "static/media/slott.jpg": "/static/media/slott.7051ea697c0e388f59fa.jpg",
+    "static/media/AmsterdamOne.ttf": "/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
+    "static/media/fprint.png": "/static/media/fprint.e7d2c563b79c34c84771.png",
+    "index.html": "/index.html",
+    "main.c2783dd8.css.map": "/static/css/main.c2783dd8.css.map",
+    "main.f3a62efa.js.map": "/static/js/main.f3a62efa.js.map"
   },
   "entrypoints": [
-    "static/css/main.45592e23.css",
-    "static/js/main.51a2562e.js"
+    "static/css/main.c2783dd8.css",
+    "static/js/main.f3a62efa.js"
   ]
 }
