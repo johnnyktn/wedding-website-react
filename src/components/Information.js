@@ -76,7 +76,10 @@ function Information() {
                 <p>
                     Er närvaro är det viktigaste för oss så gåvor är inget som vi förväntar oss. Om ni mot förmodan vill ge en gåva ändå så skulle vi bli glada om ni bidrog till vår bröllopsresa där vi ska äventyra i Sydamerika. Vi har skapat en insamling som administreras av vår kära Toast Master där ni kan bidra med valfritt belopp. Vi kommer bara se totala summan. Inget annat.
                     <ul>
-                        <li><b>Gåvan kan ges via Swish till:</b> <a href="tel:0734434312">0734434312 (Hannes Thorén Sadek)</a></li>
+                        <li><b>Gåvan kan ges via Swish:</b></li>
+                        <li> <b>Mottagare: Hannes Thorén Sadek</b></li>
+                        <li> <b>Meddelande: <i>WJWedding2026</i></b></li>
+                        <li> <b>Nummer: <a href="tel:0734434312">0734434312</a></b></li>
                     </ul>
                 </p>
             </section>

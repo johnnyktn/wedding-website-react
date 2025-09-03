@@ -188,25 +188,24 @@ function Register() {
         e.preventDefault();
 
         // Validation for mandatory fields
-        if (!isComing) {
-            alert('Du måste ange om du kommer eller inte.');
-            return;
-        }
         if (!formData.fullName.trim()) {
             alert('Fullständigt namn är obligatoriskt.');
             return;
         }
-        if (!formData.secret.trim()) {
-            alert('En hemlighet om dig som få vet om är obligatoriskt.');
-            return;
-        }
-        if (song1.length === 0) {
-            alert('Du måste välja en låt för "Låt 1: Du lovar att dansa till".');
-            return;
-        }
-        if (song2.length === 0) {
-            alert('Du måste välja en låt för "Låt 2: Du har ett fint minne med bruden/brudgummen".');
-            return;
+
+        if (isComing) {
+            if (!formData.secret.trim()) {
+                alert('En hemlighet om dig som få vet om är obligatoriskt.');
+                return;
+            }
+            if (song1.length === 0) {
+                alert('Du måste välja en låt för "Låt 1: Du lovar att dansa till".');
+                return;
+            }
+            if (song2.length === 0) {
+                alert('Du måste välja en låt för "Låt 2: Du har ett fint minne med bruden/brudgummen".');
+                return;
+            }
         }
 
         const emailData = {
