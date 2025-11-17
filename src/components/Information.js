@@ -69,6 +69,9 @@ function Information() {
                     <li><b>E-post:</b> <a href="mailto:miahellberg1@gmail.com">miahellberg1@gmail.com</a></li>
                     <li><b>Telefon:</b> <a href="tel:0705256204">0705256204</a></li>
                 </ul>
+                <p>
+                    <b>Vid anmälning av spex och/eller tal, vänligen inkludera en introlåt som kommer att spelas upp när ni går upp!</b>
+                </p>
             </section>
 
             <section className="information-section">
