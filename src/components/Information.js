@@ -138,6 +138,12 @@ function Information() {
                         <br /><br />Det kommer att finnas ett fotobås från InstaBooth där ni kan ta roliga bilder under kvällen! Ta gärna så många bilder ni vill och föreviga kvällen med oss! Det kommer också finnas möjlighet att få dem digitalt. Mer instruktioner kommer att finnas på plats.
                     </li>
                 </ul>
+                <ul>
+                    <li>
+                        <b>01:00 - Gunnebo stänger</b>
+                        <br />Dags att säga tack och godnatt (åtminstone till Gunnebo...)!
+                    </li>
+                </ul>
             </section>
         </div>
     );
