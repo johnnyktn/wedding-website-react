@@ -32,8 +32,8 @@
 }
 
 .information-section ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .information-section ul li {

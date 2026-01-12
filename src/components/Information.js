@@ -48,7 +48,7 @@ function Information() {
                 <p>
                     <b>Festligt & Glammigt</b> - som en bal på slottet!
                     Tänk glitter, siden och uppklätt.
-                    Klänning i valfri färg och längd, byxor eller kjol går lika bra. Kostym eller smoking för herrar. 
+                    Klänning i valfri färg och längd, byxor eller kjol går lika bra. Kostym eller smoking för herrar.
                 </p>
                 <p>
                     <i>
@@ -98,12 +98,45 @@ function Information() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                             Gunnebo Park
+                            Gunnebo Park
                         </a>
                     </li>
 
 
-                        <li>Hotell i närheten: <a href="https://www.scandichotels.com/sv/hotell/scandic-molndal">Scandic Hotel Mölndal</a> & <a href="https://www.strawberry.se/hotell/sverige/molndal/quality-hotel-the-weaver/?utm_campaign=bb-sok-se-brand-hotel&gad_source=1&gad_campaignid=16830824141&gclid=Cj0KCQjws4fEBhD-ARIsACC3d2_f0AqHDOmqp8xnVSm_xhBijdI3kM1xeR5WpYhB_sRvpexOtRT3z-QaAlD7EALw_wcB">Quality Hotel The Weaver</a></li>
+                    <li>Hotell i närheten: <a href="https://www.scandichotels.com/sv/hotell/scandic-molndal">Scandic Hotel Mölndal</a> & <a href="https://www.strawberry.se/hotell/sverige/molndal/quality-hotel-the-weaver/?utm_campaign=bb-sok-se-brand-hotel&gad_source=1&gad_campaignid=16830824141&gclid=Cj0KCQjws4fEBhD-ARIsACC3d2_f0AqHDOmqp8xnVSm_xhBijdI3kM1xeR5WpYhB_sRvpexOtRT3z-QaAlD7EALw_wcB">Quality Hotel The Weaver</a></li>
+                </ul>
+            </section>
+            <section className="information-section">
+                <h2>Kvällens Program</h2>
+                <ul>
+                    <li>
+                        <b>16:00 - Välkomna till Gunnebo slott!</b>
+                        <br />Ni är välkomna att gå slottets norra sida (ner mot vägen). Här kan ni hänga av era jackor och gå på toaletten innan vigseln.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>16:30 - Vigsel i slottet</b>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>16:50 - Brudskål!</b>
+                        <br />Beroende på väder håller vi antingen till ute på slottets södra sida (mot trädgården) eller inne i valvet där vi minglar och skålar för brudparet med bubbel och tilltugg.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>18:00 - Middag</b>
+                        <br />Vi kommer att förflytta oss från slottet till Vagnboden där middagen kommer att serveras.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <b>21:30 - Nu blir det fest!</b>
+                        <br />Från <i>Vagnboden</i> kommer vi att röra oss till <i>Kaffehuset</i> där dans och fest tar vid! Här kommer det att serveras kaffe och tårta samt finnas en bar öppen för er att beställa dryck ifrån.
+                        <br /><br />Det kommer att finnas ett fotobås från InstaBooth där ni kan ta roliga bilder under kvällen! Ta gärna så många bilder ni vill och föreviga kvällen med oss! Det kommer också finnas möjlighet att få dem digitalt. Mer instruktioner kommer att finnas på plats.
+                    </li>
                 </ul>
             </section>
         </div>
