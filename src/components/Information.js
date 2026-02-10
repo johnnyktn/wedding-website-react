@@ -24,8 +24,9 @@ function Information() {
                             href="/wedding-invitation.ics"
                             download="wedding-invitation.ics"
                         >
-                            14 februari 2026 15:00 - 01:00 (Lägg till i kalender)
-                        </a>
+                            14 februari 2026 16:00 - 01:00 (Lägg till i kalender)
+                        </a>.
+                        Se sektion "Kvällens Program" nedan för mer detaljerad tid.
                     </li>
                     <li>
                         <b>Plats:</b>{' '}
